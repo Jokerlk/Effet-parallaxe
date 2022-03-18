@@ -1,0 +1,37 @@
+body {
+  background: orange;
+}
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+h2 {
+  font-family: "Noto Sans", serif;
+  font-size: 2em;
+  color: #000000;
+}
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #666;
+  margin: 30px 0;
+  text-indent: 30px;
+}
+.image {
+  background: url("https://images.unsplash.com/photo-1535919020263-f79f5313f336?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80") no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
